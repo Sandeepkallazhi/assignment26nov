@@ -21,6 +21,7 @@ provider "aws" {
   region = "us-west-2"
 }
 
+provider "random" {}
 
 resource "aws_iam_role" "eks_cluster" {
   name = "eks-cluster"
