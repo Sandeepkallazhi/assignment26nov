@@ -7,8 +7,8 @@ terraform {
       source = "hashicorp/random"
     }
   }
-terraform {
-  backend "remote" {
+  
+ backend "remote" {
     organization = "space"
 
     workspaces {
