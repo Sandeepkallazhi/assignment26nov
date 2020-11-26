@@ -11,9 +11,9 @@ terraform {
     organization = "space"
     workspaces {
       name = "love-bonito-eks"
-      }
     }
   }
+}
 
 provider "aws" {
   region = "us-west-2"
