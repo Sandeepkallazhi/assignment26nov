@@ -7,9 +7,9 @@ terraform {
       source = "hashicorp/random"
     }
   }
-
+terraform {
   backend "remote" {
-    organization = "org"
+    organization = "space"
 
     workspaces {
       name = "love-bonito-eks"
