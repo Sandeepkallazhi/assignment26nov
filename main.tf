@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "space"
+    organization = "org"
 
     workspaces {
       name = "love-bonito-eks"
